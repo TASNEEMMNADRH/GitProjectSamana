@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return "Welcome to my web server!"
 
-#
+
 @app.route("/status")
 def home():
     return "OK"
